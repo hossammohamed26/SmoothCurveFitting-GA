@@ -205,7 +205,7 @@ public class SmoothCurve {
     void Mutation()
     {
         double pm=.01, rm, lx, ux, r1, r, y, ty, x ;
-        int b=5;
+        int b=3;
         for(int i = 0 ;i < newOffSpring.size() ; i++)
         {   
             for(int j=0;j<number_of_bits;j++)
